@@ -1,62 +1,61 @@
-
 # Minecraft Unlocker Script
 
-Este script em Python foi desenvolvido para quebrar a licença de avaliação do **Minecraft Windows 10** e liberar acesso total ao jogo. Ele **requer privilégios administrativos** para substituir os arquivos necessários.
+This Python script was developed to break the trial license of **Minecraft Windows 10** and grant full access to the game.It **requires administrative privileges** to replace the necessary files.
 
-## Requisitos
+## Requirements
 
-- **Minecraft Windows 10** instalado como versão de avaliação gratuita. Você pode obter o jogo [aqui](https://apps.microsoft.com/detail/9NBLGGH2JHXJ?hl=pt-br&gl=US&ocid=pdpshare).
-- **Python 3.x** instalado no seu sistema.
-- **Permissões de Administrador**: O script precisa ser executado com privilégios elevados para acessar e modificar arquivos do sistema. Você pode rodá-lo diretamente no terminal ou configurar a IDE para ser executada como administrador.
+- **Minecraft Windows 10** installed as a free trial version.You can get the game [here](https://apps.microsoft.com/detail/9NBLGGH2JHXJ?hl=pt-br&gl=US&ocid=pdpshare).
+- **Python 3.x** installed on your system.
+- **Administrator Permissions**:The script needs to be run with elevated privileges to access and modify system files.You can run it directly in the terminal or configure the IDE to run as an administrator.
 
-## Como Usar
+## How to Use
 
-### Passo 1: Baixe o Script
+### Step 1: Download the Script
 
-Clone ou baixe o repositório para o seu computador.
+Clone or download the repository to your computer.
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/your-username/repository-name.git
 ```
 
-### Passo 2: Prepare o Ambiente
+### Step 2: Prepare the Environment
 
-Antes de executar o script, verifique se você possui as permissões necessárias. O script precisa ser executado como **Administrador**.
+Before executing the script, make sure you have the necessary permissions.The script needs to be run as **Administrator**.
 
-- **No Windows**, você pode clicar com o botão direito no **Prompt de Comando** ou **PowerShell** e selecionar **"Executar como Administrador"**.
-- **Na IDE** (como PyCharm ou VSCode), certifique-se de que a IDE esteja sendo executada **como Administrador**. Para isso, clique com o botão direito do mouse no ícone da IDE e selecione **"Executar como Administrador"**.
+- **On Windows**, you can right-click on the **Command Prompt** or **PowerShell** and select **"Run as Administrator"**.
+- **In the IDE** (like PyCharm or VSCode), make sure the IDE is running **as Administrator**.For this, right-click on the IDE icon and select **"Run as Administrator"**.
 
-### Passo 3: Execute o Script
+### Step 3: Execute the Script
 
-1. **No terminal (linha de comando)**:
-   - Abra o **Prompt de Comando** ou **PowerShell** **como Administrador**.
-   - Navegue até o diretório onde o script foi baixado.
-   - Execute o seguinte comando:
+1. **No terminal (command line)**:
+Context: 1. **No terminal (command line)**: - Open the **Command Prompt** or **PowerShell** **as Administrator**. \nText to translate:- Open the **Command Prompt** or **PowerShell** **as Administrator**.
+Open the **Command Prompt** or **PowerShell** **as Administrator**.- Navigate to the directory where the script was downloaded.
+Navigate to the directory where the script was downloaded. Execute the following command:- Execute the following command:
 
-   ```bash
-   python minecraft-unlocker.py
-   ```
+```bash python minecraft-unlocker.py \nTexto a traducir: ```bash
+python minecraft-unlocker.py
+Context: python minecraft-unlocker.py ``` \nText to translate: ```
 
-2. **Na IDE (como PyCharm ou VSCode)**:
-   - Abra sua IDE **como Administrador**.
-   - Execute o script diretamente dentro da IDE.
+2. **In the IDE (like PyCharm or VSCode)**:
+Context: 2. **In the IDE (like PyCharm or VSCode)**: - Open your IDE **as Administrator**. \nText to translate:- Open your IDE **as Administrator**.
+Context: - Open your IDE **as Administrator**. - Run the script directly within the IDE. \nText to translate:- Execute the script directly within the IDE.
 
-### Passo 4: Aguarde o Script Completar
+### Step 4: Wait for the Script to Complete
 
-O script irá substituir as DLLs necessárias no sistema e, ao final, o **Minecraft Windows 10** estará desbloqueado, com acesso total ao jogo. Aguarde até que o script seja concluído.
+The script will replace the necessary DLLs in the system and, in the end, **Minecraft Windows 10** will be unlocked, with full access to the game.Wait until the script is completed.
 
-### Passo 5: Verifique o Jogo
+### Step 5: Check the Game
 
-Após a execução do script, você pode verificar se o **Minecraft Windows 10** foi desbloqueado acessando o jogo na Microsoft Store. O jogo deve estar com acesso completo.
+After running the script, you can check if **Minecraft Windows 10** has been unlocked by accessing the game in the Microsoft Store.The game should have full access.
 
-## Avisos
+## Notices
 
-- **Precauções**: Ao executar scripts que alteram arquivos do sistema, é sempre recomendável criar um ponto de restauração do sistema, caso algo dê errado.
+- **Precautions**: When running scripts that modify system files, it is always advisable to create a system restore point in case something goes wrong.
 
-## Links Úteis
+## Useful Links
 
-- [Minecraft Windows 10 na Microsoft Store](https://apps.microsoft.com/detail/9NBLGGH2JHXJ?hl=pt-br&gl=US&ocid=pdpshare)
+- [Minecraft Windows 10 on the Microsoft Store](https://apps.microsoft.com/detail/9NBLGGH2JHXJ?hl=pt-br&gl=US&ocid=pdpshare)
 
-## Contribuição
+## Contribution
 
-Se você encontrar algum erro ou tiver melhorias para sugerir, fique à vontade para abrir uma **issue** ou **pull request**.
+If you find any errors or have suggestions for improvements, feel free to open an **issue** or **pull request**.
