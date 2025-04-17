@@ -1,56 +1,61 @@
 # Minecraft Unlocker Script
 
-This Python script was developed to break the trial license of **Minecraft Windows 10** and grant full access to the game.It **requires administrative privileges** to replace the necessary files.
+This Python script was developed to bypass the trial license of **Minecraft Windows 10** and grant full access to the game. It **requires administrative privileges** to replace certain system files.
 
 ## Requirements
 
-- **Minecraft Windows 10** installed as a free trial version.You can get the game [here](https://apps.microsoft.com/detail/9NBLGGH2JHXJ?hl=pt-br&gl=US&ocid=pdpshare).
+- **Minecraft Windows 10** installed as a trial version. You can get the game [here](https://apps.microsoft.com/detail/9NBLGGH2JHXJ?hl=pt-br&gl=US&ocid=pdpshare).
 - **Python 3.x** installed on your system.
-- **Administrator Permissions**:The script needs to be run with elevated privileges to access and modify system files.You can run it directly in the terminal or configure the IDE to run as an administrator.
+- **Administrator Permissions**: The script must be executed with elevated privileges to access and modify system files. You can run it directly from the terminal or configure your IDE to run as Administrator.
 
 ## How to Use
 
 ### Step 1: Download the Script
 
-Clone or download the repository to your computer.
+Clone or download the repository to your computer:
 
 ```bash
 git clone https://github.com/your-username/repository-name.git
 ```
 
-### Step 2: Prepare the Environment
+### Step 2: Run as Administrator
 
-Before executing the script, make sure you have the necessary permissions.The script needs to be run as **Administrator**.
+Before running the script, make sure you have **administrator privileges**:
 
-- **On Windows**, you can right-click on the **Command Prompt** or **PowerShell** and select **"Run as Administrator"**.
-- **In the IDE** (like PyCharm or VSCode), make sure the IDE is running **as Administrator**.For this, right-click on the IDE icon and select **"Run as Administrator"**.
+- **On Windows**: Right-click on **Command Prompt** or **PowerShell** and choose **"Run as Administrator"**.
+- **In an IDE** (like PyCharm or VSCode): Right-click the IDE shortcut and select **"Run as Administrator"**.
 
 ### Step 3: Execute the Script
 
-1. **No terminal (command line)**:
-Context: 1. **No terminal (command line)**: - Open the **Command Prompt** or **PowerShell** **as Administrator**. \nText to translate:- Open the **Command Prompt** or **PowerShell** **as Administrator**.
-Open the **Command Prompt** or **PowerShell** **as Administrator**.- Navigate to the directory where the script was downloaded.
-Navigate to the directory where the script was downloaded. Execute the following command:- Execute the following command:
+You can run the script in one of the following ways:
 
-```bash python minecraft-unlocker.py \nTexto a traducir: ```bash
+#### 1. Using the Terminal (Command Prompt or PowerShell)
+
+- Open **Command Prompt** or **PowerShell** **as Administrator**.
+- Navigate to the folder where the script is located.
+- Run the script with the following command:
+
+```bash
 python minecraft-unlocker.py
-Context: python minecraft-unlocker.py ``` \nText to translate: ```
+```
 
-2. **In the IDE (like PyCharm or VSCode)**:
-Context: 2. **In the IDE (like PyCharm or VSCode)**: - Open your IDE **as Administrator**. \nText to translate:- Open your IDE **as Administrator**.
-Context: - Open your IDE **as Administrator**. - Run the script directly within the IDE. \nText to translate:- Execute the script directly within the IDE.
+#### 2. Using an IDE (like PyCharm or VSCode)
 
-### Step 4: Wait for the Script to Complete
+- Open your IDE **as Administrator**.
+- Open the script file inside the IDE.
+- Run the script directly from the IDE.
 
-The script will replace the necessary DLLs in the system and, in the end, **Minecraft Windows 10** will be unlocked, with full access to the game.Wait until the script is completed.
+### Step 4: Wait for the Script to Finish
 
-### Step 5: Check the Game
+The script will automatically replace the necessary DLLs and unlock full access to **Minecraft Windows 10**. Just wait for it to complete.
 
-After running the script, you can check if **Minecraft Windows 10** has been unlocked by accessing the game in the Microsoft Store.The game should have full access.
+### Step 5: Launch the Game
+
+After running the script, open **Minecraft Windows 10** (via the Microsoft Store or Start Menu) to verify that the game is unlocked and fully accessible.
 
 ## Notices
 
-- **Precautions**: When running scripts that modify system files, it is always advisable to create a system restore point in case something goes wrong.
+- **Caution**: Always create a system restore point before running scripts that modify system files, in case anything goes wrong.
 
 ## Useful Links
 
@@ -58,4 +63,4 @@ After running the script, you can check if **Minecraft Windows 10** has been unl
 
 ## Contribution
 
-If you find any errors or have suggestions for improvements, feel free to open an **issue** or **pull request**.
+If you find any issues or have suggestions for improvements, feel free to open an **issue** or **pull request**.
