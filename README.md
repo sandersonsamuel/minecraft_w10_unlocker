@@ -58,10 +58,6 @@ Após a execução do script, você pode verificar se o **Minecraft Windows 10**
 
 - [Minecraft Windows 10 na Microsoft Store](https://apps.microsoft.com/detail/9NBLGGH2JHXJ?hl=pt-br&gl=US&ocid=pdpshare)
 
-## GitHub Pages
-
-Para uma versão mais detalhada da documentação, incluindo explicações e instruções, acesse a página HTML hospedada via GitHub Pages [aqui](https://seu-usuario.github.io/nome-do-repositorio/).
-
 ## Contribuição
 
 Se você encontrar algum erro ou tiver melhorias para sugerir, fique à vontade para abrir uma **issue** ou **pull request**.
