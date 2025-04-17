@@ -51,7 +51,6 @@ Após a execução do script, você pode verificar se o **Minecraft Windows 10**
 
 ## Avisos
 
-- **Use com responsabilidade**: O uso deste script pode violar os termos de serviço da Microsoft e da Mojang. Certifique-se de entender as implicações legais de modificar o jogo.
 - **Precauções**: Ao executar scripts que alteram arquivos do sistema, é sempre recomendável criar um ponto de restauração do sistema, caso algo dê errado.
 
 ## Links Úteis
